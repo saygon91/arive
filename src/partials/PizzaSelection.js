@@ -63,7 +63,7 @@ const PizzaSelection = ({ onNext }) => {
     <section>
       <WiredCard>
         <img src={pizza} className="pizza-image" alt="pizza" />
-        <h4>Total amount: ${totalPrice}</h4>
+        <h4>Total price: ${totalPrice}</h4>
       </WiredCard>
       <WiredListbox
         horizontal
